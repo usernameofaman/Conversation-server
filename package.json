@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "aws-sdk": "~2.1.36",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.32.1",
+    "socket.io": "^4.7.1",
+    "ws": "^8.13.0",
+    "wss": "^3.3.4"
+  }
+}
