@@ -4,8 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const { getMessages, getConversationByUser, searchUser, loginUser, registerUser, createConversation, markAccepted, addMessage, startServer } = require("./apis");
 const server = require("http").createServer(app);
-const  { Messages } = require("./models/Message");
-
+const  { Messages } = require("./models/Message");\
 
 
 app.use(cors());
